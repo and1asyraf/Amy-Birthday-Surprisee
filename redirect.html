@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="redirect-page">
+    <h1 class="birthday-title">Happy Birthday, Amyra Natasha Johane! 🎉🎂</h1>
+    
+    <!-- Container for the paragraph -->
+    <div class="feelings-container">
+        <p>
+            Dear Amyra Natasha, my pretty little amazing angel of a girlfriend,  <br>
+            On your special day, 27th of December of every year, I just want to say how much you mean to me. 
+            You bring so much happiness, love, and light into my life. 
+            I am beyond grateful for every moment we have shared, and I am so lucky to have you by my side. 
+            I know having me as your boyfriend has made your life a rollercoaster of emotions. 
+            But I hope you know that the 2 year relationship I have with you is one of the best thing that have happened to me.
+            You are my everything, and I am sorry for all the wrongs that I've caused. 
+            All the lies that I've told,
+            All the flowers I never buy, 
+            All the shouts that hurts you,
+            and All the sleepless nights I've caused. I am genuinely sorry. 
+            If there was an award for being the best human being on Earth, you would have won it,
+            You would have won it as you're so kind, amazing, hardworking, You're just special. 
+            Thank you for being my girlfriend, and giving me a second chance in US. 
+            You deserve everything sayang,
+            and I will try my best to give you that everything.
+            To more days with you baby,
+            Happy Birthday! 💖
+        </p>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="surpriseSound" src="LaguRedirect.mp3"></audio>
+
+    <!-- Confetti Script -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script>
+        // Play sound and launch confetti when the page loads
+        window.addEventListener('load', () => {
+            // Play the sound
+            const audio = document.getElementById('surpriseSound');
+            audio.play();
+
+            // Launch confetti
+            confetti({
+                particleCount: 100,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+
+            // Optional: Create an interval for more confetti
+            setInterval(() => {
+                confetti({
+                    particleCount: 100,
+                    spread: 200,
+                    origin: { y: 0.6 }
+                });
+            }, 2000);
+        });
+    </script>
+</body>
+</html>
