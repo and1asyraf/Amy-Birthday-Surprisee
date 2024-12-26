@@ -1,0 +1,72 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+/* Background for the main page */
+body.main-page {
+    background: url('mainpageback.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Background for the redirect page */
+body.redirect-page {
+    background: url('redirectpageback.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* General text styles */
+h1 {
+    font-size: 3em;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+}
+
+a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+a:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+} 
+
+/* Container for the paragraph */
+.feelings-container {
+    background: rgba(255, 182, 193, 0.2); /* Light pink background with transparency */
+    border: 2px solid #ff69b4; /* Pretty pink border */
+    border-radius: 15px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the container */
+    margin: 30px auto; /* Center the container with margin */
+    width: 80%; /* Make it take up 80% of the page width */
+    text-align: left; /* Align text to the left */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+/* Paragraph inside the container */
+.feelings-container p {
+    font-size: 1.2em; /* Slightly larger font for readability */
+    color: #fefefe; /* Dark gray color for better contrast */
+    line-height: 1.8; /* Better line spacing */
+    font-family: 'Arial', sans-serif; /* Clean and simple font */
+}
+
+
